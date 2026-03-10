@@ -1,7 +1,7 @@
 package invoke;
 
 /**
- * Класс для демонстрации работы аннотации invoke.Invoke.
+ * Класс для демонстрации работы аннотации Invoke.
  */
 public class InvokeExample {
 
@@ -20,14 +20,14 @@ public class InvokeExample {
     @Invoke
     public void start() {
         invoked = true;
-        System.out.println("Метод start() вызван");
+        System.out.println("Method start() invoked");
     }
 
     /**
      * Обычный метод без аннотации.
      */
-    public void обычныйМетод() {
-        System.out.println("Обычный метод без invoke.Invoke");
+    public void regularMethod() {
+        System.out.println("Regular method without annotation");
     }
 
     /**
